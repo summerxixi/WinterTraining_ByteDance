@@ -34,3 +34,17 @@
  
 
 ```
+## 布局
+![](../readingClocking/images/02.png)
+### flex布局
+![](images/03.png)
+剩余空间按照flex-grow的比例分配
+![](images/04.png)
+flex:1 实际上是 flex-grow:1; flex-shrink:1; flex-basis:0%; 的简写，
+
+flex 伸缩项属性一共有三个，即flex-basis，flex-grow，flex-shrink;
+
+1. flex-grow:有剩余空间时的伸展能力,剩余空间按照flex-grow的比例分配;
+
+2. flex-shrink:容器空间不足时收缩的能力;
+3. flex-basis:没有伸展或者收缩的基础长度。
